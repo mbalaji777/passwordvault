@@ -1,0 +1,355 @@
+/*common css styles*/
+html, body {
+	width: 100%;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+.vertical-align-custom {
+	margin: 0;
+  	position: relative;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+/*common div size */
+@media screen and (min-width: 769px) {
+    .common-div-size {
+		min-height: 500px;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .common-div-size {
+		min-height: 250px;
+	}
+}
+
+
+/*navbar styles*/
+.navbar-brand {
+	font-weight: 700;
+	background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*styling for hero division*/
+.hero-division {
+	background: #b92b27;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	line-height: 0.9;
+	overflow: hidden;
+}
+
+.password-vault-header {
+	color: white;
+	text-align: center;
+	font-weight: 700;
+}
+
+.password-vault-slogan {
+	color: white;
+	text-align: center;
+	display: inline-block;
+}
+
+@media screen and (min-width: 769px) {
+    .password-vault-header {
+		font-size: 100px;
+		margin-top: 130px;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .password-vault-header {
+		font-size: 30px;
+		line-height: 0.9;
+		margin-top: 90px;
+	}
+}
+
+@media screen and (min-width: 769px) {
+    .password-vault-slogan {
+    	font-size: 55px;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .password-vault-slogan {
+    	font-size: 25px;
+	}
+}
+
+@media screen and (min-width: 769px) {
+    .svg-hero-division {
+    	margin-bottom: -85px;
+
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .svg-hero-division{
+    	margin-bottom: -30px;
+    	margin-top: -10px;
+	}
+}
+
+
+/*your password is secure div style starts here*/
+.secure-division {
+	overflow: hidden;
+}
+.secondary-slogan {
+	line-height: 0.95;
+}
+
+@media screen and (min-width: 769px) {
+    .secure-division {
+		margin-top: 150px;
+		margin-bottom: 80px
+
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .secure-division {
+		margin-top: 50px;
+		margin-bottom: 40px
+	}
+}
+
+@media screen and (min-width: 769px) {
+    .secondary-slogan-text{
+    	font-size: 50px;
+    	padding: 20px;
+    	text-align: center;
+    	font-weight: 700;
+ 	}
+	.secondary-slogan {
+		margin: 0;
+	  	position: relative;
+	  	top: 50%;
+	  	-ms-transform: translateY(-50%);
+	  	transform: translateY(-50%);
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .secondary-slogan-text{
+    	font-size: 25px;
+    	margin-top: 15px;
+    	padding-left: 15px;
+		padding-right: 10px;
+		font-weight: 700;
+
+
+	}
+	.secondary-slogan {
+		margin: 0;
+	  	position: relative;
+	  	top: 60%;
+	  	-ms-transform: translateY(-50%);
+	  	transform: translateY(-50%);
+
+	}
+}
+
+.secondary-slogan-subtext {
+	word-wrap: break-word;
+}
+
+@media screen and (min-width: 769px) {
+	.secondary-slogan-subtext{
+		font-size: 30px;
+		padding: 10px;	
+		text-align: center;
+		line-height: 1.2;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+	.secondary-slogan-subtext {
+		font-size: 18px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 30px;
+		line-height: 1.1;
+
+	}
+}
+
+.image-lock {
+	width: 100%;
+	border-radius: 20px;
+	box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+	margin-bottom: 20px;
+
+}
+
+/*master password division starts here*/
+.master-password {
+	background: #C33764;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+	overflow: hidden;
+
+}
+
+.master-password-header {
+	color: white;
+	font-weight: 700;
+}
+
+.master-password-content {
+	color: white;
+}
+
+@media screen and (min-width: 769px) {
+    .master-password-header{
+		font-size: 100px;
+		margin-top: 150px;
+		text-align: center;	
+
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .master-password-header {
+		font-size: 23px;
+		margin-top: 30px;
+		padding-left: 25px;
+		padding-right: 25px;
+
+	}
+}
+
+@media screen and (min-width: 769px) {
+    .master-password-content{
+		font-size: 32px;
+		padding: 20px;
+		text-align: center;
+		line-height: 1.2;
+		margin-bottom: 150px;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .master-password-content {
+		font-size: 18px;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-bottom: 30px;
+		line-height: 1.1;
+	}
+}
+
+/*secure storage styling starts here*/
+.secure-storage {
+	margin-top: 100px;
+	overflow: hidden;
+
+}
+
+@media screen and (min-width: 769px) {
+    .secure-storage {
+		margin-top: 150px;
+		margin-bottom: 80px
+
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .secure-storage  {
+		margin-top: 40px;
+		margin-bottom: 50px
+	}
+}
+
+.secure-storage-header {
+	font-weight: 700;
+
+}
+
+.secure-storage-subcontent {
+
+}
+
+@media screen and (min-width: 769px) {
+    .secure-storage-header{
+		font-size: 50px;
+    	padding: 20px;
+    	text-align: center;
+    	font-weight: 700;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .secure-storage-header{
+		font-size: 25px;
+    	margin-top: 15px;
+    	padding-left: 15px;
+		padding-right: 10px;
+		font-weight: 700;
+	}
+}
+
+@media screen and (min-width: 769px) {
+    .secure-storage-subcontent{
+		font-size: 30px;
+		padding: 10px;	
+		text-align: center;
+		line-height: 1.2;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .secure-storage-subcontent {
+		font-size: 18px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 30px;
+		line-height: 1.1;
+	}
+}
+
+/*footer styling starts here*/
+.footer-custom {
+	text-align: center;
+	padding: 30px;
+	background: #000428;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	overflow: hidden;
+
+
+}
+@media screen and (min-width: 769px) {
+    .footer-text{
+		font-size: 20px;
+		color: white;
+		padding: 20px;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .footer-text {
+		font-size: 16px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		color: white;
+	}
+}
+

@@ -1,0 +1,158 @@
+/*common stlyes comes here*/
+
+html, body {
+	width: 100%;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+.vertical-align-custom {
+	margin: 0;
+  	position: relative;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+/*common div size */
+@media screen and (min-width: 769px) {
+    .common-div-size {
+		min-height: 500px;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .common-div-size {
+		min-height: 250px;
+	}
+}
+
+
+/*navbar styles*/
+.navbar-brand {
+	font-weight: 700;
+	background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*styling for the forms starts here*/
+.form-custom {
+	padding: 20px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+	box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+
+}
+
+@media screen and (min-width: 769px) {
+    .form-custom {
+		margin-top: 200px;
+		width: 75%;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .form-custom  {
+		margin-top: 150px;
+		width: 90%;
+	}
+}
+
+@media screen and (max-device-width: 400px) {
+    .form-custom  {
+		margin-top: 70px;
+		width: 90%;
+	}
+}
+
+@media screen and (min-width: 769px) {
+    form {
+		padding: 20px;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    form  {
+    	padding: 5px;
+	}
+}
+
+.new-user {
+	text-align: center;
+}
+
+.new-user-text {
+	color: grey;
+}
+
+@media screen and (min-width: 769px) {
+    .new-user-text{
+		font-size: 15px;
+		
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .new-user-text {
+		font-size: 12px;
+		
+	}
+}
+
+.register-button {
+	margin-left: 20px;
+	color:  white;
+	background: #8E2DE2;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+
+
+/*footer styling starts here*/
+.footer-custom {
+	position: fixed;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+	text-align: center;
+	padding: 10px;
+	background: #000428;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	overflow: hidden;
+
+
+}
+@media screen and (min-width: 769px) {
+    .footer-text{
+		font-size: 20px;
+		color: white;
+		padding: 20px;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .footer-text {
+		font-size: 16px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		color: white;
+	}
+}

@@ -1,0 +1,239 @@
+/*common css styles*/
+html, body {
+	width: 100%;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+.vertical-align-custom {
+	margin: 0;
+  	position: relative;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+/*common div size */
+@media screen and (min-width: 769px) {
+    .common-div-size {
+		min-height: 500px;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .common-div-size {
+		min-height: 250px;
+	}
+}
+
+
+/*navbar styles*/
+.navbar-brand {
+	font-weight: 700;
+	background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*cards styles starts here*/
+
+.cards {
+	padding: 20px;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 0 15px 45px rgba(0, 0, 0, 0.3);
+	color: white;
+}
+
+@media screen and (min-width: 769px) {
+    .cards-header {
+    	font-weight: 700;
+    	font-size: 30px;
+    	color: white;
+    	text-align: center;
+    	margin: 0;
+	  	position: relative;
+	  	top: 50%;
+	  	-ms-transform: translateY(-50%);
+	  	transform: translateY(-50%);
+    }
+
+    .cards-credentials {
+    	font-size: 25px;
+    	overflow-wrap: break-word;
+    	color: white;
+    	margin: 0;
+	  	position: relative;
+	  	top: 50%;
+	  	-ms-transform: translateY(-50%);
+	  	transform: translateY(-50%);
+    }
+
+    .cards-buttons {
+    	text-align: center;
+    	margin: 0;
+	  	position: relative;
+	  	top: 50%;
+	  	-ms-transform: translateY(-50%);
+	  	transform: translateY(-50%);
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .cards-header {
+    	font-weight: 700;
+    	color: black;
+    	font-size: 60px;
+    	color: white;
+    }
+
+    .cards-credentials {
+    	font-size: 18px;
+    	overflow-wrap: break-word;
+    	color: white;
+    }
+
+    .cards-buttons {
+    }
+}
+
+@media screen and (max-device-width: 400px) {
+    .cards-header {
+    	font-weight: 700;
+    	color: black;
+    	font-size: 60px;
+    	color: white;
+    }
+
+    .cards-credentials {
+    	font-size: 22px;
+    	overflow-wrap: break-word;
+    	color: white;
+    }
+
+    .cards-buttons {
+    }
+}
+
+.add-button{
+	text-align: right;
+	color: white;
+	padding: 10px;
+}
+	
+.btn {
+	margin: 3px;
+}
+
+
+/*footer styling starts here*/
+.footer-custom {
+	text-align: center;
+	padding: 30px;
+	background: #000428;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	overflow: hidden;
+
+
+}
+@media screen and (min-width: 769px) {
+    .footer-text{
+		font-size: 20px;
+		color: white;
+		padding: 20px;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .footer-text {
+		font-size: 16px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		color: white;
+	}
+}
+
+/*form styling*/
+/*styling for the forms starts here*/
+.form-custom {
+	padding: 20px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+	box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #FF3CAC;
+	background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+
+}
+
+@media screen and (min-width: 769px) {
+    .form-custom {
+		width: 75%;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .form-custom  {
+		width: 90%;
+	}
+}
+
+@media screen and (max-device-width: 320px) {
+    .form-custom  {
+
+		width: 90%;
+	}
+}
+
+@media screen and (min-width: 769px) {
+    form {
+		padding: 20px;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    form  {
+    	padding: 5px;
+	}
+}
+
+.new-user {
+	text-align: center;
+}
+
+.new-user-text {
+	color: grey;
+}
+
+@media screen and (min-width: 769px) {
+    .new-user-text{
+		font-size: 15px;
+		
+	}
+} 
+
+@media screen and (max-width: 768px) {
+    .new-user-text {
+		font-size: 12px;
+		
+	}
+}
+
+.register-button {
+	margin-left: 20px;
+	color:  white;
+	background: #8E2DE2;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
